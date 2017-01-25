@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598143B31E368D880018B7AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143B21E368D880018B7AF /* main.m */; };
+		598143B61E368D880018B7AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143B51E368D880018B7AF /* AppDelegate.m */; };
+		598143B91E368D880018B7AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143B81E368D880018B7AF /* ViewController.m */; };
+		598143BC1E368D880018B7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598143BA1E368D880018B7AF /* Main.storyboard */; };
+		598143BE1E368D880018B7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598143BD1E368D880018B7AF /* Assets.xcassets */; };
+		598143C11E368D880018B7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598143BF1E368D880018B7AF /* LaunchScreen.storyboard */; };
+		598143CA1E368F210018B7AF /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143C91E368F210018B7AF /* MovieCell.m */; };
+		598143CC1E3699020018B7AF /* spotlight-yo-yahoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 598143CB1E3699020018B7AF /* spotlight-yo-yahoo.jpg */; };
+		5ABA3E552071CA783B270AA7 /* libPods-Flick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB389E85A9E8C4458123ED64 /* libPods-Flick.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		598143AE1E368D880018B7AF /* Flick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598143B21E368D880018B7AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		598143B41E368D880018B7AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		598143B51E368D880018B7AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		598143B71E368D880018B7AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		598143B81E368D880018B7AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		598143BB1E368D880018B7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		598143BD1E368D880018B7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598143C01E368D880018B7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		598143C21E368D880018B7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598143C81E368F210018B7AF /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		598143C91E368F210018B7AF /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		598143CB1E3699020018B7AF /* spotlight-yo-yahoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spotlight-yo-yahoo.jpg"; sourceTree = "<group>"; };
+		764E9A8AB37B7E72F23969D4 /* Pods-Flick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flick/Pods-Flick.debug.xcconfig"; sourceTree = "<group>"; };
+		A6CBD25C5D9AF4901A47C16A /* Pods-Flick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flick/Pods-Flick.release.xcconfig"; sourceTree = "<group>"; };
+		EB389E85A9E8C4458123ED64 /* libPods-Flick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598143AB1E368D880018B7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABA3E552071CA783B270AA7 /* libPods-Flick.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F8D2452DA7151B8ECCC351 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				764E9A8AB37B7E72F23969D4 /* Pods-Flick.debug.xcconfig */,
+				A6CBD25C5D9AF4901A47C16A /* Pods-Flick.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24B2BDFE2D47A1E22F5F5A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB389E85A9E8C4458123ED64 /* libPods-Flick.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		598143A51E368D880018B7AF = {
+			isa = PBXGroup;
+			children = (
+				598143B01E368D880018B7AF /* Flick */,
+				598143AF1E368D880018B7AF /* Products */,
+				15F8D2452DA7151B8ECCC351 /* Pods */,
+				24B2BDFE2D47A1E22F5F5A16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		598143AF1E368D880018B7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598143AE1E368D880018B7AF /* Flick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598143B01E368D880018B7AF /* Flick */ = {
+			isa = PBXGroup;
+			children = (
+				598143CB1E3699020018B7AF /* spotlight-yo-yahoo.jpg */,
+				598143B41E368D880018B7AF /* AppDelegate.h */,
+				598143B51E368D880018B7AF /* AppDelegate.m */,
+				598143B71E368D880018B7AF /* ViewController.h */,
+				598143B81E368D880018B7AF /* ViewController.m */,
+				598143BA1E368D880018B7AF /* Main.storyboard */,
+				598143C81E368F210018B7AF /* MovieCell.h */,
+				598143C91E368F210018B7AF /* MovieCell.m */,
+				598143BD1E368D880018B7AF /* Assets.xcassets */,
+				598143BF1E368D880018B7AF /* LaunchScreen.storyboard */,
+				598143C21E368D880018B7AF /* Info.plist */,
+				598143B11E368D880018B7AF /* Supporting Files */,
+			);
+			path = Flick;
+			sourceTree = "<group>";
+		};
+		598143B11E368D880018B7AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				598143B21E368D880018B7AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598143AD1E368D880018B7AF /* Flick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598143C51E368D880018B7AF /* Build configuration list for PBXNativeTarget "Flick" */;
+			buildPhases = (
+				F416E10D46F562954D892D0B /* [CP] Check Pods Manifest.lock */,
+				598143AA1E368D880018B7AF /* Sources */,
+				598143AB1E368D880018B7AF /* Frameworks */,
+				598143AC1E368D880018B7AF /* Resources */,
+				D7C0AF73EA9F5CCC773DF20C /* [CP] Embed Pods Frameworks */,
+				749BA83948AD49DD7FEE6224 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flick;
+			productName = Flick;
+			productReference = 598143AE1E368D880018B7AF /* Flick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598143A61E368D880018B7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = " Santosh Sharanappa Mandi";
+				TargetAttributes = {
+					598143AD1E368D880018B7AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 598143A91E368D880018B7AF /* Build configuration list for PBXProject "Flick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598143A51E368D880018B7AF;
+			productRefGroup = 598143AF1E368D880018B7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598143AD1E368D880018B7AF /* Flick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598143AC1E368D880018B7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598143C11E368D880018B7AF /* LaunchScreen.storyboard in Resources */,
+				598143CC1E3699020018B7AF /* spotlight-yo-yahoo.jpg in Resources */,
+				598143BE1E368D880018B7AF /* Assets.xcassets in Resources */,
+				598143BC1E368D880018B7AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		749BA83948AD49DD7FEE6224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flick/Pods-Flick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C0AF73EA9F5CCC773DF20C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flick/Pods-Flick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F416E10D46F562954D892D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598143AA1E368D880018B7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598143B91E368D880018B7AF /* ViewController.m in Sources */,
+				598143B61E368D880018B7AF /* AppDelegate.m in Sources */,
+				598143CA1E368F210018B7AF /* MovieCell.m in Sources */,
+				598143B31E368D880018B7AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		598143BA1E368D880018B7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598143BB1E368D880018B7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		598143BF1E368D880018B7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598143C01E368D880018B7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598143C31E368D880018B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		598143C41E368D880018B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598143C61E368D880018B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764E9A8AB37B7E72F23969D4 /* Pods-Flick.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Flick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		598143C71E368D880018B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CBD25C5D9AF4901A47C16A /* Pods-Flick.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Flick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598143A91E368D880018B7AF /* Build configuration list for PBXProject "Flick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598143C31E368D880018B7AF /* Debug */,
+				598143C41E368D880018B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598143C51E368D880018B7AF /* Build configuration list for PBXNativeTarget "Flick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598143C61E368D880018B7AF /* Debug */,
+				598143C71E368D880018B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598143A61E368D880018B7AF /* Project object */;
+}
