@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593C8B3A1E385A3100100DED /* FlickItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C8B391E385A3000100DED /* FlickItem.m */; };
+		593C8B8A1E3C0B2800100DED /* view_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C8B881E3C0B2800100DED /* view_grid.png */; };
+		593C8B8B1E3C0B2800100DED /* view_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C8B891E3C0B2800100DED /* view_list.png */; };
+		593C8B8E1E3C0E0600100DED /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C8B8D1E3C0E0600100DED /* CollectionViewCell.m */; };
+		593C8B911E3C274E00100DED /* FlickDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C8B901E3C274E00100DED /* FlickDetailsViewController.m */; };
+		593C8B941E3C43E700100DED /* nowplaying.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C8B921E3C43E700100DED /* nowplaying.png */; };
+		593C8B951E3C43E700100DED /* toprated.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C8B931E3C43E700100DED /* toprated.png */; };
+		593C8B981E3C49EA00100DED /* SystemMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C8B971E3C49EA00100DED /* SystemMessageView.m */; };
+		593C8B9A1E3C4A5D00100DED /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C8B991E3C4A5D00100DED /* error.png */; };
 		598143B31E368D880018B7AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143B21E368D880018B7AF /* main.m */; };
 		598143B61E368D880018B7AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143B51E368D880018B7AF /* AppDelegate.m */; };
 		598143B91E368D880018B7AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598143B81E368D880018B7AF /* ViewController.m */; };
@@ -19,6 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593C8B381E385A3000100DED /* FlickItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickItem.h; sourceTree = "<group>"; };
+		593C8B391E385A3000100DED /* FlickItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickItem.m; sourceTree = "<group>"; };
+		593C8B881E3C0B2800100DED /* view_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_grid.png; sourceTree = "<group>"; };
+		593C8B891E3C0B2800100DED /* view_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_list.png; sourceTree = "<group>"; };
+		593C8B8C1E3C0E0600100DED /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		593C8B8D1E3C0E0600100DED /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		593C8B8F1E3C274E00100DED /* FlickDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickDetailsViewController.h; sourceTree = "<group>"; };
+		593C8B901E3C274E00100DED /* FlickDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickDetailsViewController.m; sourceTree = "<group>"; };
+		593C8B921E3C43E700100DED /* nowplaying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nowplaying.png; sourceTree = "<group>"; };
+		593C8B931E3C43E700100DED /* toprated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toprated.png; sourceTree = "<group>"; };
+		593C8B961E3C49EA00100DED /* SystemMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessageView.h; sourceTree = "<group>"; };
+		593C8B971E3C49EA00100DED /* SystemMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessageView.m; sourceTree = "<group>"; };
+		593C8B991E3C4A5D00100DED /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		598143AE1E368D880018B7AF /* Flick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		598143B21E368D880018B7AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		598143B41E368D880018B7AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,18 +109,31 @@
 		598143B01E368D880018B7AF /* Flick */ = {
 			isa = PBXGroup;
 			children = (
+				593C8B991E3C4A5D00100DED /* error.png */,
+				593C8B921E3C43E700100DED /* nowplaying.png */,
+				593C8B931E3C43E700100DED /* toprated.png */,
+				593C8B881E3C0B2800100DED /* view_grid.png */,
+				593C8B891E3C0B2800100DED /* view_list.png */,
 				598143CB1E3699020018B7AF /* spotlight-yo-yahoo.jpg */,
 				598143B41E368D880018B7AF /* AppDelegate.h */,
 				598143B51E368D880018B7AF /* AppDelegate.m */,
 				598143B71E368D880018B7AF /* ViewController.h */,
 				598143B81E368D880018B7AF /* ViewController.m */,
 				598143BA1E368D880018B7AF /* Main.storyboard */,
+				593C8B8F1E3C274E00100DED /* FlickDetailsViewController.h */,
+				593C8B901E3C274E00100DED /* FlickDetailsViewController.m */,
 				598143C81E368F210018B7AF /* MovieCell.h */,
 				598143C91E368F210018B7AF /* MovieCell.m */,
 				598143BD1E368D880018B7AF /* Assets.xcassets */,
 				598143BF1E368D880018B7AF /* LaunchScreen.storyboard */,
 				598143C21E368D880018B7AF /* Info.plist */,
 				598143B11E368D880018B7AF /* Supporting Files */,
+				593C8B381E385A3000100DED /* FlickItem.h */,
+				593C8B391E385A3000100DED /* FlickItem.m */,
+				593C8B8C1E3C0E0600100DED /* CollectionViewCell.h */,
+				593C8B8D1E3C0E0600100DED /* CollectionViewCell.m */,
+				593C8B961E3C49EA00100DED /* SystemMessageView.h */,
+				593C8B971E3C49EA00100DED /* SystemMessageView.m */,
 			);
 			path = Flick;
 			sourceTree = "<group>";
@@ -172,9 +207,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593C8B941E3C43E700100DED /* nowplaying.png in Resources */,
 				598143C11E368D880018B7AF /* LaunchScreen.storyboard in Resources */,
+				593C8B951E3C43E700100DED /* toprated.png in Resources */,
 				598143CC1E3699020018B7AF /* spotlight-yo-yahoo.jpg in Resources */,
 				598143BE1E368D880018B7AF /* Assets.xcassets in Resources */,
+				593C8B9A1E3C4A5D00100DED /* error.png in Resources */,
+				593C8B8A1E3C0B2800100DED /* view_grid.png in Resources */,
+				593C8B8B1E3C0B2800100DED /* view_list.png in Resources */,
 				598143BC1E368D880018B7AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,10 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593C8B8E1E3C0E0600100DED /* CollectionViewCell.m in Sources */,
+				593C8B3A1E385A3100100DED /* FlickItem.m in Sources */,
 				598143B91E368D880018B7AF /* ViewController.m in Sources */,
+				593C8B981E3C49EA00100DED /* SystemMessageView.m in Sources */,
 				598143B61E368D880018B7AF /* AppDelegate.m in Sources */,
 				598143CA1E368F210018B7AF /* MovieCell.m in Sources */,
 				598143B31E368D880018B7AF /* main.m in Sources */,
+				593C8B911E3C274E00100DED /* FlickDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +440,7 @@
 				598143C71E368D880018B7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
