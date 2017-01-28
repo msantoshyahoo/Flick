@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *flickCollectionViewModes;
 @property (weak, nonatomic) IBOutlet UICollectionView *flickCollectionView;
 @property (weak, nonatomic) IBOutlet SystemMessageView *systemMessageView;
+@property UIRefreshControl *refreshControl;
 @end
 
 @implementation ViewController
@@ -31,6 +32,10 @@
     self.movieTableView.dataSource = self;
     self.flickCollectionView.dataSource = self;
     self.systemMessageView.hidden = true;
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    [self.movieTableView insertSubview:self.refreshControl atIndex:0];
+    [self.flickCollectionView insertSubview:self.refreshControl atIndex:0];
+    [self.refreshControl addTarget:self action:@selector(reload) forControlEvents:UIControlEventValueChanged];
 
 }
 
@@ -119,6 +124,7 @@
 
                                                 }
                                                 [MBProgressHUD hideHUDForView:self.view animated:YES];
+                                                [self.refreshControl endRefreshing];
 
                                             }];
     [task resume];
